@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #f3ca20;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.logo-container {
+    height: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 16px;
+    color: #000;
+}
+
+main {
+    background-color: #ececec;
+    padding: 20px;
+}
+
+.contacs {
+    display: flex;
+}
+
+.map {
+    width: 65%;
+    height: 300px;
+    background-color: red;
+}
+
+.info {
+    width: 35%;
+    height: 300px;
+    background-color: blue;
+}
+
+.info p {
+    font-size: 14px;
+}
